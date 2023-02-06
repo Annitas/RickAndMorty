@@ -27,6 +27,7 @@
 		75E596BF298FBF8E00B35054 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E596BE298FBF8E00B35054 /* RMGetAllCharactersResponse.swift */; };
 		75E596C129900C8F00B35054 /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E596C029900C8F00B35054 /* CharacterListViewViewModel.swift */; };
 		75E596C529900FFA00B35054 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E596C429900FFA00B35054 /* CharacterListView.swift */; };
+		75E596CF2990CF3000B35054 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E596CE2990CF3000B35054 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		75E596BE298FBF8E00B35054 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		75E596C029900C8F00B35054 /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
 		75E596C429900FFA00B35054 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		75E596CE2990CF3000B35054 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				75E596622985794400B35054 /* SceneDelegate.swift */,
 				75E596692985794600B35054 /* Assets.xcassets */,
 				75E5966B2985794600B35054 /* LaunchScreen.storyboard */,
+				75E596CE2990CF3000B35054 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				75E596652985794400B35054 /* RMTabViewController.swift in Sources */,
 				75E59688298594BA00B35054 /* RMEpisodeViewController.swift in Sources */,
 				75E596BF298FBF8E00B35054 /* RMGetAllCharactersResponse.swift in Sources */,
+				75E596CF2990CF3000B35054 /* Extensions.swift in Sources */,
 				75E596612985794400B35054 /* AppDelegate.swift in Sources */,
 				75E596632985794400B35054 /* SceneDelegate.swift in Sources */,
 				75E5968A298594D700B35054 /* RMSettingsViewController.swift in Sources */,
