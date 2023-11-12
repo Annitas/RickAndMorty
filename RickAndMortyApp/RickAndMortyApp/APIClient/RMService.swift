@@ -36,7 +36,7 @@ final class RMService {
                 completion(.failure(error ?? RMServiceError.failedToGetData))
                 return
             }
-//            Decode response
+
             do {
                 let result = try JSONDecoder().decode(type.self, from: data)
                 completion(.success(result))
@@ -44,7 +44,7 @@ final class RMService {
                 completion(.failure(error))
             }
         }
-        task.resume() //kicks off url session
+        task.resume()
     }
     // MARK: - Private
     private func request(from rmRequest: RMRequest) -> URLRequest? {
