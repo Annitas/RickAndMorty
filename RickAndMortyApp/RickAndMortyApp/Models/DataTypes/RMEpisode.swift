@@ -1,13 +1,7 @@
-//
-//  RMEpisode.swift
-//  RickAndMortyApp
-//
-//  Created by Anita Stashevskaya on 28.01.2023.
-//
 
 import Foundation
 
-struct RMEpisode: Codable {
+struct RMEpisode: Codable, RMEpisodeDataRender {
       let id: Int
       let name: String
       let air_date: String
