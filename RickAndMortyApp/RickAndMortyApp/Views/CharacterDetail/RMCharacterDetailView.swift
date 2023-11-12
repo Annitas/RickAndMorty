@@ -52,14 +52,18 @@ final class RMCharacterDetailView: UIView {
             return self.createSection(for: sectionIndex)
         }
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.register(RMCharacterPhotoCollectionViewCell.self,
+                                forCellWithReuseIdentifier: RMCharacterPhotoCollectionViewCell.cellIdentifier)
+        collectionView.register(RMCharacterInfoCollectionViewCell.self,
+                                forCellWithReuseIdentifier: RMCharacterInfoCollectionViewCell.cellIdentifier)
+        collectionView.register(RMCharacterEpisodeCollectionViewCell.self,
+                                forCellWithReuseIdentifier: RMCharacterEpisodeCollectionViewCell.cellIdentifier)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
-        
         return collectionView
     }
     
     private func createSection(for sectionIndex: Int) -> NSCollectionLayoutSection {
-        let sectionTypes = viewModel.section
+        let sectionTypes = viewModel.sections
         switch sectionTypes[sectionIndex] {
         case .photo:
             return viewModel.createPhotoSectionLayout()
