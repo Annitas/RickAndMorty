@@ -9,7 +9,7 @@ class RMCharacterEpisodeCollectionViewCell: UICollectionViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 20, weight: .semibold)
         return label
-    }()
+    }() // 08:28
     
     private let nameLabel: UILabel = {
         let label = UILabel()
