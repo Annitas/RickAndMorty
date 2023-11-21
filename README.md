@@ -2,7 +2,13 @@
 
 Rick & Morty - мобильное приложение, которое позволяет получить доступ к информации о персонажах, эпизодах и локациях из популярного американского мультсериала "Рик и Морти". Вся информация берется с The Rick and Morty API.
 
+## Main Screen
 <img src="https://github.com/Annitas/RickAndMorty/assets/39757257/e3fbaefb-e1dc-40af-9937-175ce680b007" width="250">
+<img src="https://github.com/Annitas/RickAndMorty/assets/39757257/aa6fb829-de07-40d5-a42d-c7240456dfdb" width="250">
+
+## Detailed screen
+<img src="https://github.com/Annitas/RickAndMorty/assets/39757257/371c76cc-024b-475e-9e11-48c682b34e9f" width="250">
+
 
 
 ## Функциональность
